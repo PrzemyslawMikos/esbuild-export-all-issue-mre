@@ -8,13 +8,13 @@ const start = async (): Promise<void> => {
     console.log('Imported value:', testExport);
 
     /**
-     * Scenario 2
      * Works for `export * from 'p1';` in p2
      * In this case `loadModule` is importing package dynamically p1 and export is available because it's awaited
      */
     const module = await loadModule();
 
     /**
+     * Scenario 2
      * Exist when `export * from 'p1';` in p2 `index.ts` - loaded asynchronously by `loadModule` above
      */
     // console.log('Imported value:', testExport);
