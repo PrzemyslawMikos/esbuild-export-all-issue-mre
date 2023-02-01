@@ -10,14 +10,6 @@
     "test": "yarn build && yarn start"
   },
   "dependencies": {
-    "csstools-postcss-sass-pre-release": "5.0.0-dev.1",
-    "node-sass-tilde-importer": "2.0.0-alpha.1",
-    "postcss": "8.3.3",
-    "postcss-assets": "6.0.0",
-    "postcss-cli": "8.3.1",
-    "postcss-es-modules": "2.0.2",
-    "postcss-scss": "4.0.3",
-    "sass": "1.32.8",
     "esbuild": "0.16.11"
   },
   "repository": {
